@@ -1,10 +1,10 @@
-# 🚇 Noida Metro (Aqua Line) ETL & Fare Explorer
+Noida Metro (Aqua Line) ETL & Fare Explorer
 
 A modular Python-based ETL (Extract, Transform, Load) pipeline that scrapes real-time station data from the Noida Metro Rail Corporation (NMRC) website, processes 420+ route combinations, and serves the data through a SQL database and a Streamlit web interface.
 
 ---
 
-## 📌 Core Objectives
+## Core Objectives
 * **Data Crawling:** Extract sequential station lists from NMRC using `Requests` and `BeautifulSoup` (Bypassing encrypted JS payloads).
 * **Data Transformation:** Programmatically generate all possible Source-Destination pairs using `Pandas`.
 * **Calculation Engine:** Logic-based calculation for:
@@ -17,7 +17,7 @@ A modular Python-based ETL (Extract, Transform, Load) pipeline that scrapes real
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 | Component | Tool |
 | :--- | :--- |
 | **Language** | Python 3.12+ |
@@ -29,7 +29,7 @@ A modular Python-based ETL (Extract, Transform, Load) pipeline that scrapes real
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```text
 metro_project/
 ├── .venv/              # Virtual environment
