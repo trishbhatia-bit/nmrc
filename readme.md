@@ -37,3 +37,8 @@ metro_project/
 ├── processor.py        # Transformation module (Business Logic)
 ├── database.py         # Loading module (SQL & Logging)
 ├── app.py              # Streamlit Web Frontend
+
+## Visuals
+
+### Fare Explorer (Streamlit Frontend)
+![Streamlit App](Streamlit.png)
