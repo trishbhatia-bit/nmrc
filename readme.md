@@ -32,11 +32,8 @@ A modular Python-based ETL (Extract, Transform, Load) pipeline that scrapes real
 ## Project Structure
 ```text
 metro_project/
-├── .venv/              # Virtual environment
 ├── main.py             # Master execution script (Pipeline Entry)
 ├── scraper.py          # Extraction module (Web Scraping)
 ├── processor.py        # Transformation module (Business Logic)
 ├── database.py         # Loading module (SQL & Logging)
 ├── app.py              # Streamlit Web Frontend
-├── metro_data.db       # Generated SQLite Database
-└── scraper.log         # Execution logs & error handling

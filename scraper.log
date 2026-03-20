@@ -1,9 +1,0 @@
-2026-03-19 09:49:43,837 - WARNING - Failed to parse headers (url=https://www.nmrcnoida.com:443/Passenger-Information/Metro-Rail/Train-Timings): [MissingHeaderBodySeparatorDefect()], unparsed data: 'Access-Control-Allow-Origin : nmrccms.datahosts.in\r\nDate: Thu, 19 Mar 2026 04:19:44 GMT\r\n\r\n'
-Traceback (most recent call last):
-  File "/home/trishbhatia/nmrc/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 574, in getresponse
-    assert_header_parsing(httplib_response.msg)
-  File "/home/trishbhatia/nmrc/.venv/lib/python3.11/site-packages/urllib3/util/response.py", line 88, in assert_header_parsing
-    raise HeaderParsingError(defects=defects, unparsed_data=unparsed_data)
-urllib3.exceptions.HeaderParsingError: [MissingHeaderBodySeparatorDefect()], unparsed data: 'Access-Control-Allow-Origin : nmrccms.datahosts.in\r\nDate: Thu, 19 Mar 2026 04:19:44 GMT\r\n\r\n'
-2026-03-19 09:49:43,891 - INFO - Attempting to save data to SQLite database...
-2026-03-19 09:49:43,927 - INFO - Successfully saved 420 records.
